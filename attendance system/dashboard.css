@@ -1,0 +1,68 @@
+body{
+  background-color: rgb(223, 222, 222);
+}
+.container{
+  padding: 30px;
+  background-color:#3f3e3e;
+  color: white;
+  min-height: 500px;
+  position: relative;
+  top: 100px;
+  border-radius: 4px;
+  box-shadow: 5px 5px 4px rgb(161, 161, 161);
+}
+h3{
+  margin-bottom: 40px;
+}
+.tab-pane{
+  overflow: auto;
+}
+#exTab1 .nav-pills > li > a {
+    border-radius: 0;
+}
+    
+#exTab3 .nav-pills > li > a {
+    border-radius: 4px 4px 0 0 ;
+}
+  
+#exTab3 .tab-content {
+    color : white;
+    background-color: #428bca;
+    padding : 5px 15px;
+}
+.tab-pane.active{
+      padding: 25px 20px;
+}
+.nav-tabs{
+  border: none;
+  padding-bottom: 30px;
+  border-bottom: 1px solid lightgray
+} 
+.nav-tabs a{
+    color: white;
+    font-size: 14px;
+}
+
+.nav-link.active{
+  color: #e14641 !important;
+  border: none !important;
+  border-right: 1px solid white !important;
+  border-left: 1px solid white !important;
+  border-bottom: 1px solid white !important;
+  background-color: transparent !important;
+  border-radius: 0px !important;
+}
+.nav-link:hover{
+  border: none;
+}
+
+table td, th{
+  color: white;
+}
+.link{
+  color: #e14641;
+}
+#dash-logout{
+  background-color: #eb8986;
+    box-shadow: 2px 3px 4px 0px white;
+}

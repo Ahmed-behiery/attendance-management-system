@@ -1,0 +1,82 @@
+body{
+  background-color: rgba(116, 88, 46, 0.7);
+}
+.employee-report{
+  display: none;
+}
+
+.user_options-forms {
+    transform: translate3d(15%, -50%, 0);
+    width: calc(80% - 30px);
+    min-height: 350px;
+}
+.employee-report .time-box{
+  height: 300px;
+}
+.employee-report .time-box,
+.employee-report .details-box{
+    background-color:#3B3B3B;
+    padding: 30px;
+}
+
+.employee-report .details-box{
+    margin-top: 0.5px;
+    height: 450px;
+}
+
+.employee-report p{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 20px
+}
+
+.employee-report .time-box p:nth-child(2){
+    margin-bottom: 35px;
+}
+
+  #exTab1 .nav-pills > li > a {
+    border-radius: 0;
+  }
+    
+  #exTab3 .nav-pills > li > a {
+    border-radius: 4px 4px 0 0 ;
+  }
+  
+  #exTab3 .tab-content {
+    color : white;
+    background-color: #428bca;
+    padding : 5px 15px;
+  }
+  .tab-pane.active{
+      padding: 25px 20px;
+  }
+  .nav-tabs.avtive{
+      background-color: #e14641;
+  }
+  .nav-tabs{
+    border: none;
+    padding-bottom: 30px;
+    border-bottom: 1px solid lightgray
+  } 
+
+  .nav-tabs a{
+      color: white;
+      font-size: 14px;
+  }
+  
+  .nav-link.active{
+    color: #e14641 !important;
+    border: none !important;
+    border-right: 1px solid white !important;
+    border-left: 1px solid white !important;
+    border-bottom: 1px solid white !important;
+    background-color: transparent !important;
+    border-radius: 0px !important;
+  }
+  .nav-link:hover{
+    border: none;
+  }
+
+  .forms_title{
+    line-height: 30px !important;
+  }
